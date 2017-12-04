@@ -10,7 +10,7 @@ User.create!(name:  "SuperAdmin",
              email: "amaratc@gmail.com",
              password:              "12345678",
              password_confirmation: "12345678",
-             admin:     true)
+             superadmin:     true)
 
 User.create!(name:  "Admin",
              email: "amar_atc@hotmail.com",
